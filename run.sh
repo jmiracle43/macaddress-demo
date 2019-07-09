@@ -1,2 +1,2 @@
 #!/bin/sh
-docker run -it macaddress-io-tools:latest "$@"
+docker run -e MAC_API_KEY -it macaddress-io-tools:latest "$@"
